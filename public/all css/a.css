@@ -1,0 +1,276 @@
+.html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+    font-family: system-ui;
+}
+
+/* h1,h2,h3,h4,h5,h6,p{
+    color: white;
+} */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding: 1px;
+    height: 74px;
+
+    /* background-image: linear-gradient(to right,#d619b0,#2729ab); */
+    /* background-color: black; */
+}
+
+.logo {
+    margin-left: 96px;
+}
+
+.hcenter {
+
+    margin-left: 164px;
+}
+
+.nav {
+    margin-left: 77px;
+
+}
+
+.touch {
+    margin-left: 164px;
+    /* background: yellow; */
+    width: 196px;
+    height: 37px;
+    text-align: center;
+    margin-top: 11px;
+    padding-top: 9px;
+}
+
+.th2 {
+    display: inline;
+}
+
+.mainbackground {
+    /* background-image: linear-gradient(to right,#d619b0,#2729ab); */
+    /* background-color: black; */
+    height: 787px;
+    width: 100vw;
+}
+
+.ldiv {
+    width: 50%;
+}
+
+.heading {
+
+    font-size: 33px;
+
+}
+
+.rdiv {
+    width: 50%;
+}
+
+.photo-circle {
+    border-radius: 50%;
+    height: 333px;
+    width: 333px;
+    background: yellow;
+    margin: auto;
+    margin-top: 244px;
+}
+
+.workin {
+
+    width: 16%;
+    margin-left: 58px;
+    text-transform: uppercase;
+}
+
+.Project {
+    overflow: hidden;
+}
+
+.projects-1 {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.boxess {
+    height: 440px;
+    width: 369px;
+    /* background: red; */
+    border: 1px solid;
+    /* margin-left: 122px; */
+    margin: 27px;
+    border-radius: 10px;
+
+}
+
+.imggg {
+    width: 100%;
+}
+
+.boxtop {
+    width: 93%;
+    margin: 14px;
+}
+
+.button2s {
+    border-radius: 23px;
+    margin-left: 18px;
+    height: 45px;
+    width: 128px;
+}
+
+.project-heading {
+    font-size: 23px;
+}
+
+.headings {
+    margin-left: 31px;
+    font-size: 33px;
+}
+
+.technologies {
+
+    margin: 31px 60px 21px 45px;
+}
+
+.technology-skills {
+    width: 186px;
+}
+
+.technology-skills-rate {
+    width: 100%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+.technology-skills-rate-javascript {
+    width: 71%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+.technology-skills-rate-reactjs {
+    width: 71%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+
+.technology-skills-rate-nodejs {
+    width: 43%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+.technology-skills-rate-reactnative {
+    width: 13%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+
+.technology-skills-parent {
+    display: flex;
+    font-size: 13px;
+}
+
+.technology-skills-level {
+    text-align: end;
+    width: 100%;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.dot {
+    height: 24px;
+    width: 24px;
+    background: #3b82f6;
+    border-radius: 14px;
+    margin-top: 15px;
+    margin-right: 14px;
+
+}
+
+.additional-skills-head {
+
+    margin: 3px 218px 0px 62px;
+}
+
+.dot-manager {
+    margin-right: 117px;
+}
+
+.dot-p {
+
+    font-weight: bold;
+    margin-top: 18px;
+    letter-spacing: 0.2px;
+}
+
+.journey {
+
+    margin-left: 21px;
+}
+
+.p-journey {
+
+    width: 979px;
+}
+
+.aboutme {
+    margin-top: 127px;
+}
+
+.straight-line {
+    width: 602px;
+    height: 11px;
+    background: white;
+    transform: rotate(90deg);
+    position: relative;
+    right: 148px;
+    z-index: -1;
+    top: 330px;
+}
+
+.skills {
+    margin: 100px 0px 100px 0px;
+}
+
+.intro {
+    margin: 184px 0px 0px 178px;
+}
+
+.typewriter {
+    color: #3b82f6
+}
+.last-journey{
+    margin-bottom: 65px;
+}
+.icons{
+    margin-right: 26px;
+}
+.right-disclaimer{
+
+    width: 50%;
+    text-align-last: end;
+    margin-top: 20px;
+}
+.made-by{    text-align: center;
+    font-size: 19px;
+    font-weight: 200;}
