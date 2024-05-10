@@ -3,11 +3,12 @@ import Header from "../addition page /header";
 import { useTypewriter , Cursor } from "react-simple-typewriter";
   
 export default function Home(){
-const data = ["dev"]
+
     const [text] = useTypewriter({
-        words: ['website Developer' , "Chess Player" , "Learner" , ""],
+        words: ['Website Developer.' , "Chess Player." , "Learner."],
         loop: 0
     });
+
     return(
         <>
         <Header/>
@@ -16,6 +17,11 @@ const data = ["dev"]
                 <div className="intro">
         <h1 className="heading">Hello, I'm Aman,</h1>
         <h1 className="typewriter">{text}<Cursor/></h1>
+
+        <p className="">Former web developer looking to utilise expertise in
+         development with an emphasis on teamwork, communication, and enthusiasm
+        </p>
+        
         </div>
 
 
@@ -207,36 +213,35 @@ const data = ["dev"]
            <div className="straight-line"></div>
             <div className="flex additional-skills-head">
             <div className="flex">
-                <h1>2015</h1>
+                <h1>2021</h1>
 
-                <div className="dot journey"></div>
-                <p className="p-journey">Graduated KTC (Krasnodar Technical College) and for about two years worked with high voltage
-                     (35, 110kV) substations as the specialty electrician of emergency mobile crew. Later qualified as a Crossfit trainer.</p>           
+                <div className="dot " style={{marginLeft:'24px'}}></div>
+                <p className="p-journey">completed the tenth grade at Swami 
+                Vivekanand Government School. After working for almost two years with limited expertise, I began to learn more about how it functions.</p>           
                 </div>
 
                 <div className="flex aboutme">
-                <h1>2015</h1>
+                <h1>2023</h1>
 
                 <div className="dot journey"></div>
-                <p className="p-journey">Graduated KTC (Krasnodar Technical College) and for about two years worked with high voltage
-                     (35, 110kV) substations as the specialty electrician of emergency mobile crew. Later qualified as a Crossfit trainer.</p>           
+                <p className="p-journey">After completing my 12th grade education at Swami Vivekanand Government School, I began 
+                learning how to code in my spare time using the fundamental concepts of HTML, CSS, and SQL that I had been taught in school. </p>           
                 </div>
 
                 <div className="flex aboutme">
-                <h1>2015</h1>
-
-                <div className="dot journey"></div>
-                <p className="p-journey">Graduated KTC (Krasnodar Technical College) and for about two years worked with high voltage
-                     (35, 110kV) substations as the specialty electrician of emergency mobile crew. Later qualified as a Crossfit trainer.</p>           
-                </div>
-
-                <div className="flex aboutme">
-                <h1>2015</h1>
+                <h1>2024</h1>
 
                 <div className="dot journey last-journey"></div>
-                <p className="p-journey">Graduated KTC (Krasnodar Technical College) and for about two years worked with high voltage
-                     (35, 110kV) substations as the specialty electrician of emergency mobile crew. Later qualified as a Crossfit trainer.</p>           
+                <p className="p-journey">I started studying codes with a local training centre after completing my 12th grade, and they taught me more about this subject, including how it works and why it's interesting.</p>           
                 </div>
+
+                <div className="flex aboutme">
+                <h1>2024</h1>
+
+                <div className="dot journey"></div>
+                <p className="p-journey">I am trying to get my degree from Tagore PG College, and I continue to be more interested in it than ever because it seems like an invincible obsession. I also grow daily by learning new things, like addiction.</p>           
+                </div>
+
             </div>
             
             </section>

@@ -13,6 +13,29 @@ body {
     font-family: system-ui;
 }
 
+form{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-38%,-50%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input{
+
+    width: 70%;
+    height: 41px;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
 /* h1,h2,h3,h4,h5,h6,p{
     color: white;
 } */
@@ -140,7 +163,6 @@ body {
 }
 
 .technologies {
-
     margin: 31px 60px 21px 45px;
 }
 
@@ -259,18 +281,53 @@ body {
 .typewriter {
     color: #3b82f6
 }
-.last-journey{
+
+.last-journey {
     margin-bottom: 65px;
 }
-.icons{
+
+.icons {
     margin-right: 26px;
 }
-.right-disclaimer{
+
+.right-disclaimer {
 
     width: 50%;
     text-align-last: end;
     margin-top: 20px;
 }
-.made-by{    text-align: center;
+
+.made-by {
+    text-align: center;
     font-size: 19px;
-    font-weight: 200;}
+    font-weight: 200;
+}
+
+.error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error-h1 {
+    font-size: 78px;
+    height: 36px;
+}
+
+.error-h2 {
+    font-size: 52px;
+}
+.enquery{
+
+    width: 516px;
+    height: 172px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.message{    
+    font-size: 88px;
+    height: 69px;
+    color: gold;
+}
