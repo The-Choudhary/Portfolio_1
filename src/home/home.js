@@ -1,4 +1,5 @@
 import React from "react";
+import doc from "../cv/Amanresume.pdf"
 import Header from "../addition page /header";
 import { useTypewriter , Cursor } from "react-simple-typewriter";
   
@@ -24,6 +25,8 @@ export default function Home(){
         
         </div>
 
+        <a href={doc}>
+            <button className="cv-button">Download CV</button></a>
 
             </div>
         <div className="rdiv">
