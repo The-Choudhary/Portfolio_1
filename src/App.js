@@ -3,6 +3,7 @@ import Home from "./home/home";
 import Kop from "./home/kl";
 import Contactme from "./home/form";
 import Error from "./home/Error";
+import Contact from "./home/contact";
 function App() {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ function App() {
         <Route path='/k' element={<Kop/>}/>
         <Route path='*' element={<Error/>}/>
         <Route path="/get-in-touch" element={<Contactme/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
 
     </Routes>
     </BrowserRouter>

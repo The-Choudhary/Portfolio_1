@@ -30,8 +30,6 @@ export default function Home(){
 
             </div>
         <div className="rdiv">
-            <div className="photo-circle">
-            </div>
         </div>
         </div>
         
@@ -46,7 +44,7 @@ export default function Home(){
         <h3 className="project-heading">Furniture store landing page</h3>
         <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
         <div>
-<button className="button2s">Live Privew</button>
+<button className="button2s button1s">Live Preview</button>
 <button className="button2s">Checkout Github</button>
         </div>
         </div>
@@ -61,7 +59,7 @@ export default function Home(){
         <h3 className="project-heading">Furniture store landing page</h3>
         <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
         <div>
-<button className="button2s">Live Privew</button>
+<button className="button2s button1s">Live Preview</button>
 <button className="button2s">Checkout Github</button>
         </div>
         </div>
@@ -75,7 +73,49 @@ export default function Home(){
         <h3 className="project-heading">Furniture store landing page</h3>
         <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
         <div>
-<button className="button2s">Live Privew</button>
+<button className="button2s button1s">Live Preview</button>
+<button className="button2s">Checkout Github</button>
+        </div>
+        </div>
+</div>
+</div>
+
+<div className="box">
+    <div className="boxess">
+    <div className="boxtop">
+        <img className="imggg" src="test.jpeg"></img>
+        <h3 className="project-heading">Furniture store landing page</h3>
+        <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
+        <div>
+<button className="button2s button1s">Live Preview</button>
+<button className="button2s">Checkout Github</button>
+        </div>
+        </div>
+</div>
+</div>
+
+<div className="box">
+    <div className="boxess">
+    <div className="boxtop">
+        <img className="imggg" src="test.jpeg"></img>
+        <h3 className="project-heading">Furniture store landing page</h3>
+        <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
+        <div>
+<button className="button2s button1s">Live Preview</button>
+<button className="button2s">Checkout Github</button>
+        </div>
+        </div>
+</div>
+</div>
+
+<div className="box">
+    <div className="boxess">
+    <div className="boxtop">
+        <img className="imggg" src="test.jpeg"></img>
+        <h3 className="project-heading">Furniture store landing page</h3>
+        <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
+        <div>
+<button className="button2s button1s">Live Preview</button>
 <button className="button2s">Checkout Github</button>
         </div>
         </div>
@@ -90,7 +130,7 @@ export default function Home(){
         <h3 className="project-heading">Furniture store landing page</h3>
         <p>Responsive HTML/CSS layout for online furniture store. HTML5, CSS3 (SCSS)</p>
         <div>
-<button className="button2s">Live Privew</button>
+<button className="button2s button1s">Live Preview</button>
 <button className="button2s">Checkout Github</button>
         </div>
         </div>

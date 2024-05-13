@@ -17,6 +17,14 @@ button{
     width: 162px;
     height: 50px;
     border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    background: #3b82f6;
+    font-weight: 800;
+}
+.button1s{
+    background: white;
+    color: black;
 }
 
 form{
@@ -34,12 +42,13 @@ a {
 
 input{
 
-    width: 70%;
+    width: 73%;
     height: 41px;
     border-radius: 23px;
     font-size: 14px;
     font-weight: 400;
     margin-top: 13px;
+    padding: 1px;
 }
 
 /* h1,h2,h3,h4,h5,h6,p{
@@ -57,15 +66,16 @@ input{
     /* background-image: linear-gradient(to right,#d619b0,#2729ab); */
     /* background-color: black; */
 }
+.header-manager{
+
+    width: 35%;
+}
 
 .logo {
     margin-left: 96px;
 }
 
-.hcenter {
 
-    margin-left: 164px;
-}
 
 .nav {
     margin-left: 77px;
@@ -138,13 +148,18 @@ input{
 .projects-1 {
     display: flex;
     overflow-y: scroll;
+    scroll-snap-type: both;
+}
+.box{
+    scroll-snap-align: start;
+    margin-left: 65px;
 }
 
 .boxess {
     height: 440px;
-    width: 369px;
+    width: 377px;
     border: 1px solid;
-    margin: 27px;
+    margin: 29px;
     border-radius: 10px;
 
 }
@@ -334,9 +349,82 @@ input{
     font-size: 14px;
     font-weight: 400;
     margin-top: 13px;
+    padding: 12px;
+    border-radius: 22px;
+
 }
 .message{    
     font-size: 88px;
     height: 69px;
     color: gold;
+}
+.contact-l{
+    width: 45%;
+    margin-left: 16px;
+}
+.contact-r{
+    width: 53%;
+    margin-top: 35px;
+}
+.contact-div{
+    font-size: 39px;
+    margin-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-icon{
+    margin-top: 43px; 
+    width: 84px;
+}
+.submit-button{
+    margin: 12px 0px 0px 373px;
+}
+@media screen and (min-width: 601px) and (max-width: 800px){
+.logo{
+    text-align: center;
+    width: 71%;
+    margin-bottom: 45px;
+}
+
+.hcenter {
+    flex: none;
+    width: 100%;
+    margin: 0px;
+}
+.none{
+    display: none;
+}
+.ldiv{
+    width: 100%;
+}
+.intro{
+
+    margin: 164px 0px 0px 104px;
+}
+
+.cv-button {
+    margin: 54px 0px 0px 180px;}
+
+    .additional-skills-head {
+        margin: 3px 0px 0px 62px;}
+
+.p-journey {
+    width: 439px;}
+
+.straight-line {
+    width: 717px;
+    right: 202px;
+    top: 387px;}
+
+.nav {
+    width: 33%;
+    text-align: center;
+    margin: 0px;
+}
+.header-manager {
+    width: 100%;
+}
+.dot-manager {
+    width: 100%;
+}
 }

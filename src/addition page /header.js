@@ -1,15 +1,21 @@
+import { useNavigate } from "react-router-dom"
 export default function Header(){
+    const navigate = useNavigate();
+
+    const project =()=>{
+        navigate("/#Projects")
+    }
     return(<>
 <div className="header flex">
-<div  >
-    <h2 className="logo">JAAT's Portfolio</h2>
+<div className="header-manager" >
+    <h2 className="logo"><a href="/">JAAT's Portfolio</a></h2>
 </div>
 <div className="flex hcenter">
-    <a href="/#Projects"><h2 className="nav">Projects</h2></a>
-    <a href="/#Technologies"><h2 className="nav">Tecnologies</h2></a>
-    <a href="/#about-me"><h2 className="nav">About</h2></a>
-    <h2 className="nav">Contact</h2>
-    <a href="get-in-touch"><h2 className="nav">Get in Touch</h2></a>
+    <h2 className="nav"><a href="/#Projects">Projects</a></h2>
+   <h2 className="nav none"> <a href="/#Technologies">Tecnologies</a></h2>
+    <h2 className="nav none"><a href="/#about-me">About</a></h2>
+    <h2 className="nav"><a href="contact">Contact</a></h2>
+    <h2 className="nav"><a href="get-in-touch">Get in Touch</a></h2>
 </div>
 
 

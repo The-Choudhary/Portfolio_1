@@ -8,8 +8,8 @@ return(<>
         <p>Former digital-marketing specialist,seeking to apply competent
 development skills with focus on collaboration,communication,and
 passion</p>
-<button className="button2s">Live Privew</button>
-<button className="button2s">Live Privew</button>
+<button className="button2s">Live Preview</button>
+<button className="button2s">Live Preview</button>
 </div>
 </div>
 
