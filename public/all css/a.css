@@ -13,7 +13,7 @@ body {
     font-family: system-ui;
 }
 
-button{
+button {
     width: 162px;
     height: 50px;
     border-radius: 25px;
@@ -22,17 +22,18 @@ button{
     background: #3b82f6;
     font-weight: 800;
 }
-.button1s{
+
+.button1s {
     background: white;
     color: black;
 }
 
-form{
+form {
 
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-38%,-50%);
+    transform: translate(-38%, -50%);
 }
 
 a {
@@ -40,7 +41,7 @@ a {
     color: white;
 }
 
-input{
+input {
 
     width: 73%;
     height: 41px;
@@ -66,7 +67,8 @@ input{
     /* background-image: linear-gradient(to right,#d619b0,#2729ab); */
     /* background-color: black; */
 }
-.header-manager{
+
+.header-manager {
 
     width: 35%;
 }
@@ -116,7 +118,8 @@ input{
 .rdiv {
     width: 50%;
 }
-.cv-button{
+
+.cv-button {
     margin: 30px 0px 0px 180px;
     width: 215px;
     background: #3b82f6;
@@ -150,7 +153,8 @@ input{
     overflow-y: scroll;
     scroll-snap-type: both;
 }
-.box{
+
+.box {
     scroll-snap-align: start;
     margin-left: 65px;
 }
@@ -342,7 +346,8 @@ input{
 .error-h2 {
     font-size: 52px;
 }
-.enquery{
+
+.enquery {
 
     width: 516px;
     height: 172px;
@@ -353,78 +358,249 @@ input{
     border-radius: 22px;
 
 }
-.message{    
+
+.message {
     font-size: 88px;
     height: 69px;
     color: gold;
 }
-.contact-l{
+
+.contact-l {
     width: 45%;
     margin-left: 16px;
 }
-.contact-r{
+
+.contact-r {
     width: 53%;
     margin-top: 35px;
 }
-.contact-div{
+
+.contact-div {
     font-size: 39px;
     margin-top: 19px;
     display: flex;
     flex-wrap: wrap;
 }
-.contact-icon{
-    margin-top: 43px; 
+
+.contact-icon {
+    margin-top: 43px;
     width: 84px;
 }
-.submit-button{
+
+.submit-button {
     margin: 12px 0px 0px 373px;
 }
-@media screen and (min-width: 601px) and (max-width: 800px){
-.logo{
-    text-align: center;
-    width: 71%;
-    margin-bottom: 45px;
-}
 
-.hcenter {
-    flex: none;
-    width: 100%;
-    margin: 0px;
-}
-.none{
-    display: none;
-}
-.ldiv{
-    width: 100%;
-}
-.intro{
+@media screen and (min-width: 374px) and (max-width: 600px) {
+    .header-manager {
+        width: 100%;
+    }
 
-    margin: 164px 0px 0px 104px;
-}
+    .hcenter {
 
-.cv-button {
-    margin: 54px 0px 0px 180px;}
+        width: 100%;
+    }
+
+    .cv-button {
+        margin: 30px 0px 0px 76px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .nav {
+        margin-left: 0px;
+        font-size: 16px;
+        width: 33%;
+        text-align: center;
+    }
+
+    .intro {
+        margin: 184px 0px 0px 44px;
+    }
+
+    .ldiv {
+        width: fit-content;
+    }
+
+    .boxess {
+        height: fit-content;
+        width: 326px;
+    }
+
+    .button2s {
+        margin-left: 6px;
+    }
+
+    button {
+        width: 143px;
+    }
+
+    .p-journey {
+        width: 62%;
+    }
 
     .additional-skills-head {
-        margin: 3px 0px 0px 62px;}
+        margin: 3px 17px 0px 30px;
+    }
 
-.p-journey {
-    width: 439px;}
+    .straight-line {
+        width: 908px;
+        right: 331px;
+        top: 489px;
+    }
+}
 
-.straight-line {
-    width: 717px;
-    right: 202px;
-    top: 387px;}
 
-.nav {
-    width: 33%;
-    text-align: center;
-    margin: 0px;
-}
-.header-manager {
-    width: 100%;
-}
-.dot-manager {
-    width: 100%;
-}
-}
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+        .logo {
+            text-align: center;
+            width: 71%;
+            margin-bottom: 45px;
+        }
+
+        .hcenter {
+            flex: none;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .none {
+            display: none;
+        }
+
+        .ldiv {
+            width: 100%;
+        }
+
+        .intro {
+
+            margin: 164px 0px 0px 104px;
+        }
+
+        .cv-button {
+            margin: 54px 0px 0px 180px;
+        }
+
+        .additional-skills-head {
+            margin: 3px 0px 0px 62px;
+        }
+
+        .p-journey {
+            width: 77%;
+        }
+
+        .straight-line {
+            width: 717px;
+            right: 202px;
+            top: 387px;
+        }
+
+        .nav {
+            width: 33%;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .header-manager {
+            width: 100%;
+        }
+
+        .dot-manager {
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 801px) and (max-width: 900px) {
+        .tecno {
+            display: none;
+        }
+
+        .logo {
+            text-align: center;
+            width: 71%;
+            margin-bottom: 45px;
+        }
+
+        .hcenter {
+            flex: none;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .ldiv {
+            width: 100%;
+        }
+
+        .intro {
+
+            margin: 164px 0px 0px 104px;
+        }
+
+        .cv-button {
+            margin: 54px 0px 0px 180px;
+        }
+
+        .additional-skills-head {
+            margin: 3px 0px 0px 62px;
+        }
+
+        .p-journey {
+            width: 439px;
+        }
+
+        .straight-line {
+            width: 717px;
+            right: 202px;
+            top: 387px;
+        }
+
+        .nav {
+            width: 24%;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .header-manager {
+            width: 100%;
+        }
+
+        .dot-manager {
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 901px) and (max-width: 1280px) {
+
+        .logo {
+            text-align: center;
+            width: 76%;
+            margin-bottom: 45px;
+        }
+
+        .header-manager {
+            width: 100%;
+        }
+
+        .hcenter {
+
+            width: 100%;
+        }
+
+        .nav {
+            width: 20%;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .p-journey {
+            width: 80%;
+        }
+
+        .straight-line {
+            width: 695px;
+            right: 193px;
+            top: 373px;
+        }
+    }
