@@ -2,6 +2,7 @@ import React from "react";
 import doc from "../cv/Amanresume.pdf"
 import Header from "../addition page /header";
 import { useTypewriter , Cursor } from "react-simple-typewriter";
+import pic from "../pic.png";
   
 export default function Home(){
 
@@ -14,6 +15,11 @@ export default function Home(){
         <>
         <Header/>
         <div className="mainbackground , flex">
+        <div className="rdiv pic">
+            <div className="profile-pic">
+                <img src={pic}></img></div>
+            
+        </div>
             <div className="ldiv">
                 <div className="intro">
         <h1 className="heading">Hello, I'm Aman,</h1>
@@ -29,7 +35,10 @@ export default function Home(){
             <button className="cv-button">Download CV</button></a>
 
             </div>
-        <div className="rdiv">
+        <div className="rdiv pic2">
+            <div className="profile-pic">
+                <img src={pic}></img></div>
+            
         </div>
         </div>
         

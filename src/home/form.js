@@ -30,17 +30,20 @@ export default function Contactme(){
     };
     return(
         <>
-        <Header/>
-        <form className="flex" onSubmit={onSubmit}>
-            <h1 className="message">Message Me</h1>
+        <Header/> 
+        <div className="form-controler flex">
+        <h1 className="message">Message Me</h1>
+        <form  onSubmit={onSubmit}>
+
             <input type="text" placeholder="Full Name" name="name"></input>
             <input type="text" placeholder="Email" name="email"></input>
             <input type="number" placeholder="Contact number" name="number"></input>
             <textarea className="enquery" placeholder="How may I help you?" name="message"></textarea>
-            <div style={{width:"100%"}}>
+            <div className="contact-button">
         <button type="submit" className="submit-button">Submit Form</button>
             </div>
         </form>
+        </div>
         
         </>
     )
