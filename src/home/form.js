@@ -1,4 +1,4 @@
-import Header from "../addition page /header";
+import Header from "../addition page/header";
 import { useState } from "react";
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import Header from "../addition page /header";
+import Header from "../addition page/header";
 export default function Contact(){
     return(
         <>

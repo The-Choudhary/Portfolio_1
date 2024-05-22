@@ -1,6 +1,6 @@
 import React from "react";
 import doc from "../cv/Amanresume.pdf"
-import Header from "../addition page /header";
+import Header from "../addition page/header";
 import { useTypewriter , Cursor } from "react-simple-typewriter";
 import pic from "../pic.png";
   
