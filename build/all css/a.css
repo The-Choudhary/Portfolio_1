@@ -1,0 +1,814 @@
+.html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+    font-family: system-ui;
+}
+img{
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+button {
+    width: 162px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    background: #3b82f6;
+    font-weight: 800;
+}
+
+.button1s {
+    background: white;
+    color: black;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+
+    width: 100%;
+    height: 41px;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+    padding: 1px;
+}
+
+/* h1,h2,h3,h4,h5,h6,p{
+    color: white;
+} */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-pic{
+
+    margin-left: 114px;
+    margin-top: 23px;
+}
+.header {
+    padding: 1px;
+    height: 74px;
+
+}
+
+.header-manager {
+
+    width: 35%;
+}
+
+.logo {
+    margin-left: 96px;
+}
+
+
+
+.nav {
+    margin-left: 77px;
+
+}
+
+.touch {
+    margin-left: 164px;
+    /* background: yellow; */
+    width: 196px;
+    height: 37px;
+    text-align: center;
+    margin-top: 11px;
+    padding-top: 9px;
+}
+
+.th2 {
+    display: inline;
+}
+
+.mainbackground {
+
+    margin-top: 45px;
+    height: 787px;
+    width: 100vw;
+}
+
+.ldiv {
+    width: 50%;
+}
+.pic{
+    display: none;
+}
+
+.heading {
+
+    font-size: 33px;
+
+}
+
+.rdiv {
+    width: 50%;
+}
+
+.cv-button {
+    margin: 30px 0px 0px 180px;
+    width: 215px;
+    background: #3b82f6;
+    color: white;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.photo-circle {
+    border-radius: 50%;
+    height: 333px;
+    width: 333px;
+    background: yellow;
+    margin: auto;
+    margin-top: 244px;
+}
+
+.workin {
+
+    width: 16%;
+    margin-left: 58px;
+    text-transform: uppercase;
+}
+
+.Project {
+    overflow: hidden;
+}
+
+.projects-1 {
+    display: flex;
+    overflow-y: scroll;
+    scroll-snap-type: both;
+}
+
+.box {
+    scroll-snap-align: start;
+    margin-left: 65px;
+}
+
+.boxess {
+    height: 440px;
+    width: 377px;
+    border: 1px solid;
+    margin: 29px;
+    border-radius: 10px;
+
+}
+
+.imggg {
+    width: 100%;
+}
+
+.boxtop {
+    width: 93%;
+    margin: 14px;
+}
+
+.button2s {
+    margin-left: 5px;
+}
+
+.project-heading {
+    font-size: 23px;
+}
+
+.headings {
+    margin-left: 31px;
+    font-size: 33px;
+}
+
+.technologies {
+    margin: 31px 60px 21px 45px;
+}
+
+.technology-skills {
+    width: 186px;
+}
+
+.technology-skills-rate {
+    width: 100%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+.technology-skills-rate-javascript {
+    width: 71%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+.technology-skills-rate-reactjs {
+    width: 71%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+
+.technology-skills-rate-nodejs {
+    width: 43%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+.technology-skills-rate-reactnative {
+    width: 13%;
+    background: #3b82f6;
+    height: 12px;
+    border-radius: 13px;
+}
+
+
+.technology-skills-parent {
+    display: flex;
+    font-size: 13px;
+}
+
+.technology-skills-level {
+    text-align: end;
+    width: 100%;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.dot {
+    height: 24px;
+    width: 24px;
+    background: #3b82f6;
+    border-radius: 14px;
+    margin-top: 15px;
+    margin-right: 14px;
+
+}
+
+.additional-skills-head {
+
+    margin: 3px 218px 0px 62px;
+}
+
+.dot-manager {
+    margin-right: 117px;
+}
+
+.dot-p {
+
+    font-weight: bold;
+    margin-top: 18px;
+    letter-spacing: 0.2px;
+}
+
+.journey {
+
+    margin-left: 21px;
+}
+
+.p-journey {
+
+    width: 979px;
+}
+
+.aboutme {
+    margin-top: 127px;
+}
+
+.straight-line {
+    width: 632px;
+    height: 11px;
+    background: white;
+    transform: rotate(90deg);
+    position: relative;
+    right: 162px;
+    z-index: -1;
+    top: 342px;
+}
+
+.skills {
+    margin: 100px 0px 100px 0px;
+}
+
+.intro {
+    margin: 184px 0px 0px 178px;
+}
+
+.typewriter {
+    color: #3b82f6
+}
+
+.last-journey {
+    margin-bottom: 65px;
+}
+
+.icons {
+    margin-right: 26px;
+}
+
+.right-disclaimer {
+
+    width: 50%;
+    text-align-last: end;
+    margin-top: 20px;
+}
+
+.made-by {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error-h1 {
+    font-size: 78px;
+    height: 36px;
+}
+
+.error-h2 {
+    font-size: 52px;
+}
+
+.enquery {
+
+    width: 97%;
+    height: 172px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+    padding: 12px;
+    border-radius: 22px;
+
+}
+
+.message {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 32px;
+    color: gold;
+    width: 91%;
+}
+
+.contact-l {
+    width: 45%;
+    margin-left: 16px;
+}
+
+.contact-r {
+    width: 53%;
+    margin-top: 35px;
+}
+
+.contact-div {
+    font-size: 39px;
+    margin-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-icon {
+    margin-top: 43px;
+    width: 84px;
+}
+
+.form-controler{
+
+    width: 50%;
+    margin-left: 31%;
+    margin-top: 2%;
+}
+.contact-button{
+
+    width: 100%;
+    text-align: end;
+    margin-top: 16px;
+
+}
+
+@media screen and (min-width: 374px) and (max-width: 600px) {
+    .header-manager {
+        width: 100%;
+    }
+.submit-button{
+    width: 93%;
+    font-size: 22px;
+    border-radius: 32px;
+    font-weight: normal;
+    margin: 0px 12px 0px 5px;
+}
+
+.message{
+    width: 100%;
+}
+    .form-controler {
+        width: 100%;
+    
+    margin: 0px;}
+
+    .enquery {
+        width: 94%;}
+        input{
+            width: 98%;
+        }
+.contact-icon {
+    margin-top: 51px;
+    width: 52px;
+}
+.detail-c{
+
+    width: 50%;
+    margin-top: 45px;
+}
+.contact-l{
+    margin-top: 38px;
+}
+
+.contact-div {
+    font-size: 25px;}
+
+    .hcenter {
+
+        width: 100%;
+    }
+
+    .cv-button {
+        margin: 30px 0px 0px 163px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .nav {
+        margin-left: 0px;
+        font-size: 16px;
+        width: 33%;
+        text-align: center;
+    }
+
+    .intro {    
+        margin: 15px 15px 0px 15px;
+    }
+
+    .ldiv {
+        width: fit-content;
+    }
+
+    .boxess {
+        height: fit-content;
+        width: 326px;
+    }
+
+    .button2s {
+        margin-left: 6px;
+    }
+
+    button {
+        width: 143px;
+    }
+
+    .p-journey {
+        width: 62%;
+    }
+
+    .additional-skills-head {
+        margin: 3px 17px 0px 30px;
+    }
+
+    .straight-line {
+        width: 908px;
+        right: 331px;
+        top: 489px;
+    }
+
+    .profile-pic{ 
+        text-align: center;
+        width: 100%;
+    margin: 0px;}
+
+    .pic2{
+        display: none;
+    }
+    .pic{display: block;}
+    .rdiv{width: 100%;}
+    .contact-r{
+        margin: 8px;
+        width: 100%;
+    }
+}
+
+
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+        .contact-div{
+
+    margin-top: 37px;
+        }
+
+        .message{
+            width: 100%;
+            margin-top: 91px;
+        }
+            .form-controler {
+                width: 100%;
+            
+            margin: 0px;}
+        
+            .enquery {
+                width: 95%;}
+                input{
+                    width: 98%;
+                }
+            .submit-button{
+
+    width: 96%;
+    border-radius: 15px;
+    margin: 0px 12px 0px 8px;
+            }
+    .rdiv{width: 100%;}
+    .contact-r{
+        margin: 8px;
+        width: 100%;
+        margin-top: 62px;
+    }
+    .detail-c{
+        width: 50%;
+    }
+        .logo {
+            text-align: center;
+            width: 71%;
+            margin-bottom: 45px;
+        }
+        .rdiv{width: 100%;}
+
+        .profile-pic{ 
+            text-align: center;
+            width: 100%;
+        margin: 0px;}
+
+        .pic2{
+            display: none;
+        }
+        .pic{display: block;}
+
+        .hcenter {
+            flex: none;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .Project {
+            margin-top: 186px;
+        }
+        .none {
+            display: none;
+        }
+
+        .ldiv {
+            width: 100%;
+        }
+
+        .intro {
+            margin: 0px;
+            text-align: center;
+        }
+
+        .cv-button {
+            margin: 9px 0px 0px 287px;
+        }
+
+        .additional-skills-head {
+            margin: 3px 0px 0px 62px;
+        }
+
+        .p-journey {
+            width: 77%;
+        }
+
+        .straight-line {
+            width: 717px;
+            right: 202px;
+            top: 387px;
+        }
+
+        .nav {
+            width: 33%;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .header-manager {
+            width: 100%;
+        }
+
+        .dot-manager {
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 801px) and (max-width: 900px) {
+        .tecno {
+            display: none;
+        }
+        .message{
+            width: 100%;
+            margin-top: 91px;
+        }
+            .form-controler {
+                width: 68%;
+                margin-left: 18%;
+                margin-top: 59px;}
+        
+            .enquery {
+                width: 95%;}
+                input{
+                    width: 98%;
+                }
+            .submit-button{
+
+    width: 96%;
+    border-radius: 15px;
+    margin: 0px 12px 0px 8px;
+            }
+.contact-l{ 
+    width: 100%;
+    margin-left: 16px;
+    margin-top: 43px;
+    margin-bottom: 25px;}
+        .logo {
+            text-align: center;
+            width: 71%;
+            margin-bottom: 45px;
+        }
+
+    .rdiv{width: 100%;}
+    .contact-r{
+        margin: 8px;
+        width: 100%;
+        margin-top: 62px;
+    }
+.Project {
+    margin-top: 314px;
+}
+        .hcenter {
+            flex: none;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .ldiv {
+            width: 100%;
+        }
+
+        .intro {
+            margin: 0px;
+            text-align: center;
+        }
+
+        .cv-button {
+            margin: 9px 0px 0px 332px;
+        
+        }
+
+        .additional-skills-head {
+            margin: 3px 0px 0px 62px;
+        }
+
+        .p-journey {
+            width: 439px;
+        }
+        .rdiv{width: 100%;}
+
+        .profile-pic{ 
+            text-align: center;
+            width: 100%;
+        margin: 0px;}
+        .straight-line {
+            width: 717px;
+            right: 202px;
+            top: 387px;
+        }
+
+        .nav {
+            width: 24%;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .header-manager {
+            width: 100%;
+        }
+
+        .dot-manager {
+            width: 100%;
+        }
+        .pic2{
+            display: none;
+        }
+        .pic{
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 901px) and (max-width: 1280px) {
+        .message{
+            width: 100%;
+            margin-top: 91px;
+        }
+            .form-controler {
+                width: 68%;
+                margin-left: 18%;
+                margin-top: 59px;}
+        
+            .enquery {
+                width: 95%;}
+                input{
+                    width: 98%;
+                }
+            .submit-button{
+
+    width: 96%;
+    border-radius: 15px;
+    margin: 0px 12px 0px 8px;
+            }
+        .mainbackground {
+            margin-top: 84px;}
+        
+        .logo {
+            text-align: center;
+            width: 76%;
+            margin-bottom: 45px;
+        }
+
+        .header-manager {
+            width: 100%;
+        }
+
+        .hcenter {
+
+            width: 100%;
+        }
+
+        .nav {
+            width: 20%;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .p-journey {
+            width: 80%;
+        }
+
+        .straight-line {
+            width: 695px;
+            right: 193px;
+            top: 373px;
+        }
+        .profile-pic{
+            margin-left:0px ;
+        }
+        .contact-icon {
+            margin-top: 34px;
+            width: 63px;
+        }
+
+        .detail-c {
+            font-size: 27px;
+            /* width: 25%; */
+            margin-top: 40px;
+        }
+        .contact-l {
+            width: 45%;
+            margin-left: 10px;
+            margin-top: 53px;
+        }
+        .contact-r {
+            width: 53%;
+            margin-top: 106px;
+        }
+        .location{
+            display: none;
+        }
+                
+    }
